@@ -1,71 +1,83 @@
-html, body{
+html, body {
+    min-height: 100%;
     display: flex;
     flex-direction: column;
-}
-header{
-   text-align: center;
-    
-}
-.page-description{
-    border: 1px solid #000;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-weight: 300;
+    line-height: 1.5;
 }
 
-body{
-    background-image: url(./img/background.jpg);
+body {
+    font-family: "Lato", sans-serif;
+    background: #000000 url("img/background.jpg") center top;
     background-size: cover;
-    background-position: top center;
+    margin: 0;
 }
 
+a {
+    color: #204156;
+    text-decoration: none;
+}
 
-.gallery{
+.page-title {
+    text-align: center;
+    font-weight: 100;
+}
+
+.page-description {
+    border: 1px solid #000;
+    margin: 2px;
+    text-align: center;
+    padding: 30px;
+}
+
+.gallery {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
-.gallery-item{
+
+.gallery-item {
+    margin: 20px;
+}
+
+.gallery-item .thumbnail {
     border: 5px solid #fff;
-    margin: 40px;
-    
 }
-.container{
-    margin: auto;
-    max-width: 1440px;
+
+nav {
+    background-color: #fff;
 }
-ul, li{
+
+nav li {
+    display: inline;
+    margin: 0;
+    padding: 0 10px;
+}
+
+nav ul {
     display: inline;
 }
-.contact-btn{
+
+.contact-btn {
     float: right;
 }
-.nav{
-    background: #fff;
-    margin: 0px;
-    padding: 20px;
-    align-items: center;
-}
-a{
-    text-decoration: none;
-    color: #000;
-    
-}
-li{
-    margin-right: 10px;
-}
-.contact-btn{
-    border: 1px solid #000;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-.contact-btn>a{
+
+.contact-btn a {
     cursor: pointer;
+    margin-right: 30px;
+    padding: 8px 18px;
+    border: 1px solid #204156;
     position: relative;
 }
-.contact-btn>a:hover{
+
+.contact-btn a:active {
     top: 2px;
 }
 
+nav a {
+    height: 60px;
+    line-height: 60px;
+    color: #204156;
+    text-decoration: none;
+}
