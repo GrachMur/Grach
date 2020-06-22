@@ -81,3 +81,15 @@ nav a {
     color: #204156;
     text-decoration: none;
 }
+nav.header {
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+}
+nav a {
+    padding:0px 10px;
+}
+.wrap {
+    display:flex;
+    align-items:center;
+}
