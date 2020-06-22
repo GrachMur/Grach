@@ -92,6 +92,6 @@ nav a {
 .wrap {
     display:flex;
     align-items:center;
-     margin-right: auto;
+    margin-right: auto;
     justify-content: flex-end;
 }
